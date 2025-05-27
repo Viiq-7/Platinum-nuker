@@ -1,11 +1,12 @@
-#scripted by zufinho (again)
-#now becomming more faster and more organized
+# scripted by zufinho (again)
+# now becoming more faster and more organized
+
 import os
 import time
-from pystyle import Colorate,Colors
-import time
 import requests
-banner="""
+from pystyle import Colorate, Colors
+
+banner = """
 
 ██████╗ ██╗      █████╗ ████████╗██╗███╗   ██╗██╗   ██╗███╗   ███╗
 ██╔══██╗██║     ██╔══██╗╚══██╔══╝██║████╗  ██║██║   ██║████╗ ████║
@@ -14,7 +15,11 @@ banner="""
 ██║     ███████╗██║  ██║   ██║   ██║██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
 ╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
 
+"""
 
+print(Colorate.Vertical(Colors.blue_to_cyan, banner, 2))
+
+print("HLACK.")
 """
 version=" "
 def printcolor(text):
